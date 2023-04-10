@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@react-three/drei": "^9.64.0",
@@ -38,6 +39,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "cz-conventional-changelog": "^3.3.0",
     "eslint-plugin-storybook": "^0.6.11",
+    "husky": "^8.0.3",
     "storybook": "^7.0.2"
   },
   "config": {
